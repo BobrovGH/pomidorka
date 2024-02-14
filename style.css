@@ -1,0 +1,70 @@
+.main-container {
+  display: flex;
+}
+.watch-container {
+  flex: 1;
+  text-align: center;
+}
+.main-history-container {
+  flex: 1;
+}
+.history-container {
+  flex: 1;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.history-container-stat {
+  flex: 2;
+  top: 450px;
+}
+
+#progressBar {
+  width: 50%;
+  height: 20px;
+  background-color: #A9A9A9;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#progress {
+  width: 0%;
+  height: 100%;
+  background-color: #00FF00;
+}
+
+button {
+  margin-top: 20px;
+  margin-right: 5px
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+watch {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+anno {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #C0C0C0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}

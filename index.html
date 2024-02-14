@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Помидорка</title>
+  <link rel="icon" type="image/jpeg" href="images/pomidorka_icon.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="watch-container">
+      <h1 id="watchTitle">Помидорка</h1>
+      <h2 id="watchStatus">Для запуска кликни "Продуктивность"</h2>
+      <watch id="watch">00:00:00</watch>
+      <div class="annotation-container-progress">
+        <anno id="annotationProgressBar">Желательное время продуктивности: 25 мин.</anno>
+      </div>
+      <div id="progressBar">
+        <div id="progress"></div>
+      </div>
+      <button id="startButton">Продуктивность</button>
+      <button id="breakButton">Перерыв</button>
+      <div class="annotation-container-buttons">
+        <anno id="annotationButtons">Перерыв и продуктивность чередуются</anno>
+      </div>
+    </div>
+    <div class="main-history-container">
+      <h1 id="history-title">История работы</h1>
+      <div class="history-container">
+        <h2 id="history-container-default">Здесь будет отображаться история работы</h2>
+      </div>
+      <div class="history-container-stat">
+        <h2 id="history-title">Статистика</h2>
+        <h3 id="stat-hard-work">Всего продуктивность: 0</h3>
+        <h3 id="stat-break">Всего отдых: 0</h3>
+      </div>
+    </div>
+  </div>
+  <p>Секундомер для Метода помидора от @BobrowGH</p>
+  <script src="index.js"></script>
+</body>
+</html>
